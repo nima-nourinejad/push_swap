@@ -6,7 +6,7 @@
 /*   By: nnourine <nnourine@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 11:36:16 by nnourine          #+#    #+#             */
-/*   Updated: 2024/01/02 15:57:13 by nnourine         ###   ########.fr       */
+/*   Updated: 2023/12/31 09:45:35 by nnourine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,8 @@ void	ft_reverse_rotate_ab(t_full_stack **full);
 void	ft_push_a(t_full_stack **full);
 void	ft_push_b(t_full_stack **full);
 int		ft_stack_maker(int *array, int size, t_full_stack	**full);
+void	ft_stack_printer(t_full_stack *full);
+void	ft_array_printer(int *array, int size);
 int		ft_array_maker(int argc, char *argv[], int **a_index, int *size);
 int		ft_full_free(t_full_stack *full, int *array);
 void	ft_three_sort(t_full_stack **full, int size);

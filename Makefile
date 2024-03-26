@@ -6,7 +6,7 @@
 #    By: nnourine <nnourine@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/26 15:48:51 by nnourine          #+#    #+#              #
-#    Updated: 2024/01/05 17:07:46 by nnourine         ###   ########.fr        #
+#    Updated: 2024/01/02 11:59:06 by nnourine         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,8 @@ SRC = 	push_swap.c \
 		ft_reverse_rotate.c \
 		ft_push.c \
 		ft_stack_maker.c \
+		ft_stack_printer.c \
+		ft_array_printer.c \
 		ft_array_maker.c \
 		ft_full_free.c \
 		ft_three_sort.c \
@@ -60,11 +62,12 @@ BNS = 	bonus_bonus.c \
 		ft_reverse_rotate_bonus.c \
 		ft_swap_bonus.c \
 		ft_push_bonus.c \
+		ft_stack_printer_bonus.c \
 		ft_bubble_sort_bonus.c\
 		ft_size_bonus.c \
 		ft_check_result_bonus.c \
 		ft_command_list_bonus.c \
-		ft_command_check_bonus.c
+		ft_command_check_bonsu.c
 				
 OBJ = $(SRC:.c=.o)
 OBJBNS = $(BNS:.c=.o)

@@ -6,7 +6,7 @@
 /*   By: nnourine <nnourine@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/30 11:05:46 by nnourine          #+#    #+#             */
-/*   Updated: 2024/01/05 17:06:43 by nnourine         ###   ########.fr       */
+/*   Updated: 2024/01/02 15:04:26 by nnourine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	main(int argc, char *argv[])
 	if (error == -1)
 		return (0);
 	error_dup = ft_check_dup_bonus(a, size);
-	if (error == 1 || error_dup == 1)
+	if (error == 1 | error_dup == 1)
 		return (ft_full_free_error_bonus(0, a));
 	error = ft_stack_maker_bonus(a, size, &full);
 	if (error == -1)

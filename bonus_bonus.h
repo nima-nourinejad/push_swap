@@ -6,7 +6,7 @@
 /*   By: nnourine <nnourine@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/30 11:21:57 by nnourine          #+#    #+#             */
-/*   Updated: 2024/01/02 15:57:24 by nnourine         ###   ########.fr       */
+/*   Updated: 2024/01/02 15:04:12 by nnourine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ void		ft_swap_b_bonus(t_full_stack **full);
 void		ft_swap_ab_bonus(t_full_stack **full);
 void		ft_push_a_bonus(t_full_stack **full);
 void		ft_push_b_bonus(t_full_stack **full);
+void		ft_stack_printer_bonus(t_full_stack *full);
 int			*ft_bubble_sort_bonus(int *array, int size);
 int			ft_size_a_bonus(t_full_stack **full);
 int			ft_size_b_bonus(t_full_stack **full);
